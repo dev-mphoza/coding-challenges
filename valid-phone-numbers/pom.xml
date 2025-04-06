@@ -3,22 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>co.za</groupId>
+        <artifactId>coding-challenges</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>co.za</groupId>
-    <artifactId>coding-challenges</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>string-reversal</module>
-        <module>binary-search</module>
-        <module>anagram</module>
-        <module>utils</module>
-        <module>length-of-last-word</module>
-        <module>plus-one</module>
-        <module>palindrome</module>
-        <module>power-of-two</module>
-        <module>valid-phone-numbers</module>
-    </modules>
+    <artifactId>valid-phone-numbers</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
